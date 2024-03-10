@@ -1,10 +1,10 @@
 import 'package:flame/collisions.dart';
 import 'package:flame/game.dart';
 import 'package:flame/input.dart';
-import 'package:flappy_ember/box_stack.dart';
-import 'package:flappy_ember/ground.dart';
-import 'package:flappy_ember/player.dart';
-import 'package:flappy_ember/sky.dart';
+import 'package:flappybird_dj/objetos/box_stack.dart';
+import 'package:flappybird_dj/objetos/ground.dart';
+import 'package:flappybird_dj/objetos/player.dart';
+import 'package:flappybird_dj/objetos/sky.dart';
 
 class FlappyEmberGame extends FlameGame
     with HasCollisionDetection, TapDetector {

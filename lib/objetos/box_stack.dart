@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flame/components.dart';
 
 import 'box.dart';
-import 'game.dart';
+import '../pantallas/game.dart';
 
 class BoxStack extends PositionComponent with HasGameRef<FlappyEmberGame> {
   static final Random _rng = Random();

@@ -1,7 +1,8 @@
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/flame.dart';
-import 'package:flappy_ember/game.dart';
+
+import 'package:flappybird_dj/pantallas/game.dart';
 
 class Box extends SpriteComponent with HasGameRef<FlappyEmberGame> {
   Box({required Vector2 position})

@@ -1,7 +1,7 @@
 import 'package:flame/components.dart';
 import 'package:flame/flame.dart';
 import 'package:flame/parallax.dart';
-import 'package:flappy_ember/game.dart';
+import 'package:flappybird_dj/pantallas/game.dart';
 
 class Ground extends ParallaxComponent<FlappyEmberGame> {
   Ground() : super(priority: -1);
@@ -22,6 +22,6 @@ class Ground extends ParallaxComponent<FlappyEmberGame> {
   @override
   void update(double dt) {
     super.update(dt);
-    parallax?.baseVelocity.x = gameRef.speed;
+    parallax?.baseVelocity.x = 10;
   }
 }
